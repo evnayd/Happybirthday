@@ -1,0 +1,24 @@
+.main {
+  text-align: center;
+  padding: 30px;
+}
+
+.main__text {
+  text-align: left;
+  background-color: $details-color;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  opacity: 80%;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.main__pic {
+  border-radius: 8px;
+  border: 6px solid $details-color;
+
+  @media only screen and (min-width: $tablet-width) {
+    margin-left: 10px;
+  }
+}

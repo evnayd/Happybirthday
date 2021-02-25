@@ -1,0 +1,35 @@
+.page-header {
+  padding-top: 27px;
+  padding-bottom: 27px;
+  padding-left: 45px;
+  padding-right: 45px;
+  background-color: $main-color;
+  opacity: 80%;
+
+  @media only screen and (min-width: $desktop-width) {
+    padding-top: 27px;
+    padding-bottom: 27px;
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+}
+
+.page-header__name {
+  text-transform: uppercase;
+  color: white;
+  font-size: 22px;
+  font-family: "Inter", "Helvetica", sans-serif;
+  font-weight: 400;
+  right: 10%;
+  top: 15px;
+  margin: 0;
+
+  @media only screen and (min-width: $desktop-width) {
+    font-size: 30px;
+    top: 30px;
+
+    @media only screen and (min-width: $desktop-width) {
+      color: white;
+    }
+  }
+}
